@@ -10,8 +10,7 @@ canvas.addEventListener("mousedown",myMouseDown);
 function myMouseDown(e){
     color=document.getElementById("color").value;
     width=document.getElementById("width").value;
-    radius=document.getElementById("radius").value;
-    mouseEvent="mouseDown";
+    mouseEvent=
 }
  canvas.addEventListener("mouseup",myMouseUp);
  function myMouseUp(e){
